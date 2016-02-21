@@ -1,0 +1,23 @@
+{
+  "name": "fellowship_api",
+  "description": "REST api over Node.js for fellowship web app.",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "node 'test.js'"
+  },
+  "author": "Ltia - Laboratorio de Tecnologia da Informacao Aplicada - UNESP Bauru - Brasil",
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://github.com:gabrielboliveira/peacon.git"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "express": "2.4.3",
+    "mongodb": ">= 0.9.6-7"
+  },
+  "devDependencies": {
+    "restify": "^4.0.4",
+    "mongojs": "^2.3.0"
+  }
+}
